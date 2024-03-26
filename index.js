@@ -1,15 +1,5 @@
-import process from 'node:process';
-import {shellPathSync} from 'shell-path';
+import fixPath from 'fix-path';
 
-export default function fixPath() {
-	if (process.platform === 'win32') {
-		return;
-	}
-
-	process.env.PATH = shellPathSync() || [
-		'./node_modules/.bin',
-		'/.nodebrew/current/bin',
-		'/usr/local/bin',
-		process.env.PATH,
-	].join(':');
+export function fixPathWrapper() {
+	fixPath();
 }
