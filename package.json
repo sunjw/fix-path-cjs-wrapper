@@ -1,0 +1,27 @@
+{
+	"name": "@sunjw8888/fix-path-cjs-wrapper",
+	"version": "0.1.0",
+	"description": "A wrapper for fix-path in Electron",
+	"license": "MIT",
+	"repository": "https://github.com/sunjw/fix-path-cjs-wrapper",
+	"author": "Sun Junwen",
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	},
+	"keywords": [
+		"fix",
+		"path",
+		"macos",
+		"env",
+		"environment",
+		"variable",
+		"shell",
+		"sh",
+		"zsh",
+		"electron"
+	],
+	"dependencies": {
+	}
+}
