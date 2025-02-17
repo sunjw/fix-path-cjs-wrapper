@@ -1,6 +1,6 @@
 {
 	"name": "@sunjw8888/fix-path-cjs-wrapper",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A wrapper for fix-path in Electron",
 	"license": "MIT",
 	"repository": "https://github.com/sunjw/fix-path-cjs-wrapper",
